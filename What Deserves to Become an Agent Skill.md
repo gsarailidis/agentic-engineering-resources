@@ -90,6 +90,7 @@ This determines what you should measure. Relevant dimensions may include:
 
 Additionally, assess:
 
+| Dimension            | What to evaluate                                                                              |
 | -------------------- | --------------------------------------------------------------------------------------------- |
 | **Flexibility** | Whether the agent can still adapt when a case does not fit the normal process.        |
 | **Efficiency**  | Whether the improvement justifies any additional complexity, latency, or maintenance. |
