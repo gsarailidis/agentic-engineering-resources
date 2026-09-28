@@ -1,4 +1,4 @@
-# Why organizations struggle to get agentic projects from demo to shipped
+# Why Organizations Struggle to Get Agentic Projects from Demo to Shipped
 
 Shipping agentic systems is full of complexities.
 
