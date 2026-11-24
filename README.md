@@ -1,36 +1,30 @@
 # Agentic Engineering Resources
 
-Writing on agentic engineering: how to build, run and secure AI agents. Feedback is welcome.
+Writing and practical resources on how to build, run, and secure AI agents. Organized primarily by **topic**, not by resource format. Feedback is welcome.
 
-## The guide
+## Agent engineering
 
-**[AgenticEngineeringGuide.md](./AgenticEngineeringGuide.md)** — a technical guide about
-terminal-native local agents and the engineering patterns around them:
+**[Agentic Engineering Guide](./AgenticEngineeringGuide.md)** — a technical guide to terminal-native local agents and their engineering patterns, including agent behavior, tool-using environments, Claude Code, context management, spec-driven engineering, and GSD. The guide remains at the repository root to preserve existing links and its supporting scripts and planning references.
 
-- agentic behavior and agentic engineering basics
-- local tool-using agent environments
-- Claude Code as a concrete harness example
-- context window management
-- spec-driven engineering
-- GSD as a workflow framework layered on top
+- [What Deserves to Become an Agent Skill](<agent-engineering/What Deserves to Become an Agent Skill.md>) — when a repeatable task justifies a reusable skill, and how to assess its added value.
+- [Why Organizations Struggle to Get Agentic Projects from Demo to Shipped](<agent-engineering/Why Organizations Struggle to Get Agentic Projects from Demo to Shipped.md>) — operational, evaluation, and data challenges in shipping agents.
 
-The guide was written with the assistance of GSD on top of Codex CLI; the `.planning/` and
-`scripts/` folders are the artifacts of that process.
+## Agent infrastructure
 
-## Articles
-
-- [Enterprise Web Search Infrastructure for AI Applications](<articles/Enterprise Web Search Infrastructure for AI Applications.md>)
-- [What Deserves to Become an Agent Skill](<articles/What Deserves to Become an Agent Skill.md>)
-- [Why Organizations Struggle to Get Agentic Projects from Demo to Shipped](<articles/Why Organizations Struggle to Get Agentic Projects from Demo to Shipped.md>)
+- [Enterprise Web Search Infrastructure for AI Applications](<agent-infrastructure/Enterprise Web Search Infrastructure for AI Applications.md>) — vendor, privacy, commercial, and architecture assessment of enterprise web-search infrastructure.
 
 ## Agent deployment safety
 
-**[agent-deployment-safety/](agent-deployment-safety/README.md)** — a practical method for
-assessing and securing a specific deployment of an AI agent, focused on material harm
-(security, privacy, legal, financial, operational):
+**[Agent deployment safety](agent-deployment-safety/README.md)** — a method for assessing and securing a particular deployment of an AI agent, focused on material harm:
 
-- [Deployment parameters](agent-deployment-safety/docs/deployment-parameters.md) — seven properties that drive a deployment's security requirements
-- [Internal research agent](agent-deployment-safety/docs/internal-research-agent.md) — the method applied to a concrete deployment, comparing a purpose-built Python agent with Claude Code
-- [Claude Code external security](agent-deployment-safety/docs/claude-code-external-security.md) — treating the agent as an untrusted workload: a disposable sandbox with narrow, trusted gateways
+- [Deployment parameters](agent-deployment-safety/docs/deployment-parameters.md) — seven properties shaping security requirements.
+- [Internal research agent](agent-deployment-safety/docs/internal-research-agent.md) — application to a specific deployment.
+- [Claude Code external security](agent-deployment-safety/docs/claude-code-external-security.md) — untrusted workload with a disposable sandbox and trusted gateways.
 
 Work in progress; no implementation yet.
+
+## Repository organization
+
+Resources are grouped by their **primary subject**. A topic may contain articles, guides, research, methods, and skills. Each resource has one canonical location; cross-topic references should link to it rather than duplicate it.
+
+The root holds navigation and repository-wide agent instructions. Existing guide-specific `.planning/` and `scripts/` material stays in its established locations because relocating it would disrupt working paths. Add new topic directories only when there is actual material for them.
