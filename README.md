@@ -13,6 +13,11 @@ Writing and practical resources on how to build, run, and secure AI agents. Orga
 
 - [Enterprise Web Search Infrastructure for AI Applications](<agent-infrastructure/Enterprise Web Search Infrastructure for AI Applications.md>) — vendor, privacy, commercial, and architecture assessment of enterprise web-search infrastructure.
 
+## Knowledge systems
+
+- [When Does an AI Agent Need a Knowledge Graph?](<knowledge-systems/When Does an AI Agent Need a Knowledge Graph.md>) — informal knowledge structures, explicit semantics, and when additional structure is worthwhile.
+- [Knowledge System Assessment skill](knowledge-systems/skills/knowledge-system-assessment/SKILL.md) — staged, read-only assessment of existing knowledge systems, duplication, and maintenance burden.
+
 ## Agent deployment safety
 
 **[Agent deployment safety](agent-deployment-safety/README.md)** — a method for assessing and securing a particular deployment of an AI agent, focused on material harm:
